@@ -8,8 +8,9 @@
   </head>
   <body>
     <div id="root">
-    <h1>{{message}}</h1>
+    <h1>{{saluto}}<span>{{message}}</span>!</h1>
     <img :src="src" alt="ned-flanders-simpson-saluta">
+    <input v-model="message">
 
 
 
